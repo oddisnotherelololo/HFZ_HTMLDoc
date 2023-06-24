@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif; /* keluarga font */
+    font-size: 24px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #5988FF; /* Warna latar belakang laman web */
+    color: #D6FF6B; /* Warna teks */ 
+}
+h1 {
+    color: #FFFFFF; /* Warna tajuk (header)*/
+    font-size: 34px; /* Ukuran font tajuk (header) */
+    font-family: 'Poppins', sans-serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h2 {
+    color: #D6FF6B; /* Warna tajuk (header)*/
+    font-size: 34px; /* Ukuran font tajuk (header) */
+    font-family: 'Poppins', sans-serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h3 {
+    color: #21ff3f; /* Warna tajuk (header)*/
+    font-size: 34px; /* Ukuran font tajuk (header) */
+    font-family: 'Poppins', sans-serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h4 {
+    color: #abffb6; /* Warna tajuk (header)*/
+    font-size: 34px; /* Ukuran font tajuk (header) */
+    font-family: 'Poppins', sans-serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+@keyframes color-change {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+  
+    50% {
+      color: rgb(0, 183, 255);
+    }
+  
+    100% {
+      color: rgb(255, 0, 140);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+h1:hover { animation: color-change 3s infinite; }
